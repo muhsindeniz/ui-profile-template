@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bg-header {
+  background-image: url("../img/main.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 375px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.pictures {
+  text-align: center;
+}
+
+.pictures img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  height: 170px;
+  margin-top: 40px;
+}
+
+.userName {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rutbe {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  text-decoration: none;
+  width: 100%;
+  padding: 0;
+}
+
+.content ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.content ul li {
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #818181;
+  font-weight: bolder;
+  padding: 18px;
+}
+
+.content ul li i {
+  color: #818181;
+  margin-left: 35px;
+}
+
+.content ul li:hover {
+  background-color: #d1adc1;
+  -webkit-transition: linear .7s all;
+  transition: linear .7s all;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 45px;
+}
+
+.logout {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logout i {
+  color: #777777;
+}
+
+.logout span {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #777777;
+}
+/*# sourceMappingURL=style.css.map */
